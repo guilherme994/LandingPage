@@ -90,6 +90,11 @@ header{
     grid-template-columns: auto auto auto auto auto auto auto auto auto;
     gap: 35px;
 }
+a.icon-header{
+    font-size: 1rem;
+    color: white;
+    transition: 150ms;
+}
 
 /*---------- About ----------*/
 
@@ -483,10 +488,7 @@ textarea {
     margin-right: 1rem;
     transition: 400ms;
 }
-.icon-header{
-    font-size: 1rem;
-    color: white;
-}
+
 .medias > p {
     margin-top: 1rem;
 }
@@ -501,9 +503,7 @@ textarea {
     background-color: #565656;
     z-index: 1000;
     display: none;
-    transition: 400ms;
 }
 .show-arrow {
     display: block;
-    transition: 400ms;
 }
