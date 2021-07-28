@@ -490,3 +490,20 @@ textarea {
 .medias > p {
     margin-top: 1rem;
 }
+.arrow-up {
+    padding: 0.7rem;
+    color: white;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    background-color: #565656;
+    z-index: 1000;
+    display: none;
+    transition: 400ms;
+}
+.show-arrow {
+    display: block;
+    transition: 400ms;
+}

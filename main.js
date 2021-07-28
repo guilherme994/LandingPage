@@ -52,8 +52,20 @@ function activateMenuAtCurrentSection() {
   }
 }
 
+/* Botão voltar para o topo */
+const backToTopButton = document.querySelector(".arrow-up")
+
+function backToTop() {
+  if (window.scrollY >= 560) {
+    backToTopButton.classList.add('show-arrow')
+  } else {
+    backToTopButton.classList.remove('show-arrow')
+  }
+}
+
 /* When Scroll */
 window.addEventListener('scroll', function () {
   activateMenuAtCurrentSection()
   changeHeaderWhenScroll()
+  backToTop()
 })
