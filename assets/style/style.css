@@ -147,6 +147,8 @@ header{
     background-repeat: no-repeat;
     border-radius: 7px;
     transition: 500ms;
+    min-width: 160px;
+    height: 300px;
 }
 .boxRoomZoom{
     overflow: hidden;
@@ -158,16 +160,20 @@ header{
     border-radius: 7px;
 }
 .titleRooms{
-    width: 160px;
-    height: 300px;
+    position: relative;
+    height: 100%;
+    width: 100%;
     color: white;
     font-weight: bolder;
     font-size: 1.5rem;
     border-radius: 7px;
+    transition: 500ms;
 }
-.titleRooms > h3 {
-    position: relative;
-    bottom: 0;
+.titleRooms h3 {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.205);
 }
 .roomOne {
     background-image: url(../images/rooms/casalMaster.jpg);  
@@ -359,7 +365,22 @@ textarea {
     background-repeat: no-repeat;
     transition: 600ms;
 }
+.titleImagesRegion {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: 600ms;
+}
+.titleImagesRegion h3{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
 
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.205);
+}
 /*----------  swiper ------------*/
 
 .swiper-container {
