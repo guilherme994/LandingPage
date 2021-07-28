@@ -125,7 +125,8 @@ header{
     
 }
 .aboutHotel > a {
-    color: black;
+    position: relative;
+    color: #01cc67;
     font-weight: bold;
 }
 
@@ -207,7 +208,8 @@ header{
     max-width: 500px;
     padding: 1.5rem 0;
 }
-.structure > a {
+.structure a {
+    position: relative;
     color: #01cc67;
     font-weight: bold;
 }

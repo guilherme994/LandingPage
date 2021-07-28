@@ -19,11 +19,27 @@ nav a::after {
 }
 .reservaContact:hover{
     background-color: #a57225;
-
 }
 
 /*---------- About ----------*/
 
+.aboutHotel a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#009c4e;
+  
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+  
+    transition: width 0.2s;
+}
+.aboutHotel a:hover::after,
+.aboutHotel a:hover {
+    width: 100%;
+    color: #009c4e;
+}
 
 /*---------- Acommodation ----------*/
 .roomOne:hover{
@@ -49,6 +65,24 @@ nav a::after {
     transform: scale(0.9);
 }
 /*---------- Inside ----------*/
+
+.structure a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#009c4e;
+  
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+  
+    transition: width 0.2s;
+}
+.structure a:hover::after,
+.structure a:hover {
+    width: 100%;
+    color: #009c4e;
+}
 
 
 /*---------- Contact & location ----------*/
