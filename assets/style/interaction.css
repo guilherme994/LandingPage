@@ -1,0 +1,88 @@
+/*---------- Header ----------*/
+
+.linksMenu:hover::after,
+.linksMenu, .active::after {
+    width: 100%;
+    color: white;
+}
+nav a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#DBAA7D;
+  
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+  
+    transition: width 0.2s;
+}
+.reservaContact:hover{
+    background-color: #a57225;
+
+}
+
+/*---------- About ----------*/
+
+
+/*---------- Acommodation ----------*/
+.roomOne:hover{
+    transform: scale(1.1);
+}
+.roomTwo:hover{
+    transform: scale(1.1);
+}
+.roomThree:hover{
+    transform: scale(1.1);
+}
+.roomFour:hover{
+    transform: scale(1.1);
+}
+.roomFive:hover{
+    transform: scale(1.1);
+}
+.boxRoom:hover{
+    transform: translateY(-3%);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.192);
+}
+
+/*---------- Inside ----------*/
+
+
+/*---------- Contact & location ----------*/
+button:hover{
+    background-color: #dd9933;
+    transform: translateY(-5%);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.144);
+}
+
+/*---------- Region ----------*/
+.shoppingChild:hover,
+.shoppingChild:focus {
+    transform: scale(1.1);
+}
+.drugstoreChild:hover,
+.drugstoreChild:focus {
+    transform: scale(1.1);
+}
+.parkNauticoChild:hover,
+.parkNauticoChild:focus {
+    transform: scale(1.1);
+}
+.pizzaChild:hover,
+.pizzaChild:focus {
+    transform: scale(1.1);
+}
+.superMarketChild:hover,
+.superMarketChild:focus {
+    transform: scale(1.1);
+}
+.parkChild:hover,
+.parkChild:focus {
+    transform: scale(1.1);
+}
+/*----------  swiper ------------*/
+
+
+/*---------- Footer ----------*/
+
