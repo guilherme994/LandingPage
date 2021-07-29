@@ -99,7 +99,7 @@ a.icon-header{
 /*---------- About ----------*/
 
 .mainImages{
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/hotel/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -111,7 +111,7 @@ a.icon-header{
     max-width: 750px;
 }
 .frontOfTheHotel{
-    background-image: url(../images/hotel/theHotel-p.jpg);
+    background-image: url(../images/hotel/kevin-angelso-TArrnDJuxak-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,10 +136,13 @@ a.icon-header{
 }
 
 /*---------- Acommodation ----------*/
-
+/*#DECA93*/
 .accommodation{
-    background-color: #DECA93;
+    background-color: black;
     padding-top: 2rem;
+}
+.accommodation h1 {
+    color: white;
 }
 .accommodationGrid{
     display: grid;
@@ -490,7 +493,8 @@ textarea {
 }
 
 .medias > p {
-    margin-top: 1rem;
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
 }
 .arrow-up {
     padding: 0.7rem;
