@@ -48,22 +48,27 @@ nav a::after {
 /*---------- Acommodation ----------*/
 .roomOne:hover{
     transform: scale(1.1);
+    background-image: linear-gradient(to top, #a57225, rgba(255, 255, 255, 0) 40%), url(../images/rooms/casalMaster.jpg);
 }
 .roomTwo:hover{
     transform: scale(1.1);
+    background-image: linear-gradient(to top, #a57225, rgba(255, 255, 255, 0) 40%), url(../images/rooms/casal.jpg);
 }
 .roomThree:hover{
     transform: scale(1.1);
+    background-image: linear-gradient(to top, #a57225, rgba(255, 255, 255, 0) 40%), url(../images/rooms/familiar.jpg);
 }
 .roomFour:hover{
     transform: scale(1.1);
+    background-image: linear-gradient(to top, #a57225, rgba(255, 255, 255, 0) 40%), url(../images/rooms/solteiroDuplo.jpg);
 }
 .roomFive:hover{
     transform: scale(1.1);
+    background-image: linear-gradient(to top, #a57225, rgba(255, 255, 255, 0) 40%), url(../images/rooms/solteiro.jpg);
 }
 .boxRoom:hover{
     transform: translateY(-3%);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.192);
+
 }
 .titleRooms:hover{
     transform: scale(0.9);
