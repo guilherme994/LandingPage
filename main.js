@@ -52,6 +52,27 @@ function activateMenuAtCurrentSection() {
   }
 }
 
+/* Toggle Menu */
+
+const menu = document.querySelector(".menuHam")
+const ham = document.querySelector(".toggleMenu")
+const linksMenu = document.querySelectorAll(".linksMenu")
+
+ham.addEventListener("click", toggleMenu)
+
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu")
+  } else {
+    menu.classList.add("showMenu")
+  }
+}
+
+linksMenu.forEach(function(menuLinks) {
+  menuLinks.addEventListener("click", toggleMenu)
+})
+
+
 /* Botão voltar para o topo */
 const backToTopButton = document.querySelector(".arrow-up")
 

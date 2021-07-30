@@ -44,7 +44,7 @@ header{
     background-color: black;
     width: 100%;
     top: 0;
-    z-index: 100;
+    z-index: 500;
 }
 .linksMenu {
     position: relative;
@@ -88,7 +88,8 @@ header{
 .menu{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto;
-    gap: 35px;
+    gap: 35px;    
+    display: none;
 }
 a.icon-header{
     font-size: 1rem;
@@ -96,11 +97,43 @@ a.icon-header{
     transition: 150ms;
 }
 
+.menuHam {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 10;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: white;
+    transform: translateX(105%);
+    transition: transform 200ms;
+    list-style: none;
+
+    padding: 15rem;
+}
+
 .toggleMenu {
-    display: none;
+    position: fixed;
     color: white;
     font-size: 1.5rem;
+    z-index: 1000;
 }
+
+
+.showMenu {
+    transform: translateX(0%);
+    scroll: none;
+}
+
+
+
+
+
 /*---------- About ----------*/
 
 .mainImages{
@@ -226,7 +259,7 @@ a.icon-header{
     color: #01cc67;
     font-weight: bold;
 }
-ul{
+.structures ul{
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
