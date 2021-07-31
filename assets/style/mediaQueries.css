@@ -1,3 +1,80 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1230px) {
+    /*---------- General ----------*/
+    .headerLayout{
+        width: 800px;
+        padding: 1rem;
+    }
+
+    /*---------- Header ----------*/
+
+    .menuHam {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 30%;
+        height: 100vh;
+        background: black;
+        color: white;
+        transform: translateX(100%);
+        transition: transform 300ms;
+    
+        padding: 15rem;
+    }
+    .toggleMenu {
+        display: block;
+        position: fixed;
+        color: white;
+        font-size: 1.5rem;
+        z-index: 1000;
+        transform: translateX(-100%);
+    }
+    .showMenu {
+        transform: translateX(0%);
+    }
+
+    /*---------- About ----------*/
+
+    .mainImages{
+        margin-top: 59px;
+    }
+    
+    .frontOfTheHotel {
+        width: 400px;
+        height: 400px;
+    }
+
+    .aboutHotel{
+        max-width: 400px;
+        padding: 1.5rem 0;
+    }
+
+    /*---------- Inside ----------*/
+
+    .insideTheHotel{
+        width: 400px;
+        height: 400px;
+    }
+    .structure{
+        width: 400px;
+        height: 400px;
+    }
+    .structure ul div li {
+        margin-bottom: 1rem;
+        line-height: 1;
+    }
+
+    /*---------- Contact & location ----------*/
+
+    .contactForm{
+        width: 400px;
+    }
+    iframe {
+        width: 400px;
+        height: 400px;
+    }
 
 }

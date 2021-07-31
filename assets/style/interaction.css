@@ -135,7 +135,7 @@ button:hover{
 /*---------- Footer ----------*/
 
 .icon-footer:hover{
-    border: solid 1.5px rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
 }
 .medias > p > a:hover{
     text-decoration: underline;
