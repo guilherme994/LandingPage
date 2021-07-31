@@ -77,4 +77,36 @@
         height: 400px;
     }
 
+    /*---------- Region ----------*/
+
+    .shopping{
+        width: 420px;
+        height: 500px;
+        grid-column: 1 / 3 ;
+    }
+    .drugstore{
+        width: 205px;
+        height: 500px;
+    }
+    .parkNautico{
+        width: 205px;
+        height: 500px;
+    }
+    .pizza{
+        width: 205px;
+        height: 500px;
+    }
+    .superMarket{
+        width: 205px;
+        height: 500px;
+    }
+    .park{
+        width: 420px;
+        height: 500px;
+        grid-column: 3 / 5 ;
+    }
+
+    .locationMap {
+        padding: 5.1rem 0; 
+    }
 }

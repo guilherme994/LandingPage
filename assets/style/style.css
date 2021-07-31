@@ -37,10 +37,6 @@ h1{
     text-align: center;
     font-size: 2rem;
 }
-iframe {
-    width: 500px;
-    height: 500px;
-}
 
 /*---------- Header ----------*/
 
@@ -146,7 +142,7 @@ a.icon-header{
 }
 
 /*---------- Acommodation ----------*/
-/*#DECA93*/
+
 .accommodation{
     background-color: black;
     padding-top: 2rem;
@@ -276,6 +272,10 @@ button{
 textarea {
     width: 100%;
     resize: vertical;
+}
+iframe {
+    width: 500px;
+    height: 500px;
 }
 
 /*---------- Region ----------*/
