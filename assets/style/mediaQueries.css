@@ -48,7 +48,7 @@
     /*---------- About ----------*/
 
     .mainImages{
-        margin-top: 59px;
+        margin-top: 57.63px;
     }
     
     .frontOfTheHotel {
@@ -279,7 +279,7 @@
     .grid{
         grid-template-columns: auto;
         gap: 2rem;
-        padding: 2rem 0.625rem;
+        padding: 2rem 0rem;
     }
     .mainGrid{
         max-width: 300px;
