@@ -90,15 +90,17 @@ header{
 .menu{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto;
-    gap: 35px;    
-
+    gap: 2rem    
 }
 a.icon-header{
     font-size: 1rem;
     color: white;
     transition: 150ms;
 }
-.toggleMenu {
+.icon-menu {
+    display: none;
+}
+.icon-x {
     display: none;
 }
 
@@ -510,13 +512,13 @@ iframe {
     margin-top: 1.4rem;
 }
 .arrow-up {
-    padding: 0.7rem;
+    padding: 0.5rem;
     color: white;
     position: fixed;
     bottom: 2rem;
     right: 2rem;
     border-radius: 50%;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     background-color: #565656;
     z-index: 1000;
     display: none;

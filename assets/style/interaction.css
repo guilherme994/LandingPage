@@ -25,6 +25,7 @@ nav a::after {
     color: #a57225;
     transform: translateY(-6px);
 }
+
 /*---------- About ----------*/
 
 .aboutHotel a::after {

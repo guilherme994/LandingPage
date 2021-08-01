@@ -57,14 +57,20 @@ function activateMenuAtCurrentSection() {
 const menu = document.querySelector(".menuHam")
 const ham = document.querySelector(".toggleMenu")
 const linksMenu = document.querySelectorAll(".linksMenu")
+const iconHam = document.querySelector(".icon-menu")
+const iconX = document.querySelector(".icon-x")
 
 ham.addEventListener("click", toggleMenu)
 
 function toggleMenu() {
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu")
+    iconHam.classList.remove("icon-ham-x")
+    iconX.classList.add("icon-ham-x")
   } else {
     menu.classList.add("showMenu")
+    iconHam.classList.add("icon-ham-x")
+    iconX.classList.remove("icon-ham-x")
   }
 }
 
