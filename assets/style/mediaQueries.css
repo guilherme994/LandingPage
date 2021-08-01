@@ -24,7 +24,7 @@
         color: white;
         transform: translateX(100%);
         transition: transform 300ms;
-        padding: 10rem 10rem;
+        place-content: center;
     }
     .icon-menu, 
     .icon-x{
@@ -43,6 +43,12 @@
     }
     .menu{
         gap: 3rem    
+    }
+    .reservaContact{
+        font-size: 1rem;
+    }
+    a.icon-header{
+        font-size: 1.2rem;
     }
 
     /*---------- About ----------*/
@@ -139,10 +145,10 @@
 
     .menuHam {
         width: 300px;
-        padding: 5rem;
     }
     .linksMenu {
         padding: 1rem;
+        font-size: 1.1rem;
     }
     .menu{
         gap: 2rem    
@@ -299,7 +305,7 @@
 
     .menuHam {
         width: 100%;
-        padding: 2rem 10rem; /*6*/
+        place-content: center;
     }
     .menu{
         gap: 1rem;
@@ -485,13 +491,14 @@
 
     .menuHam {
         width: 100%;
-        padding: 1rem 6rem; /*6*/
+
     }
     .menu{
         gap: 1rem    
     }
     .linksMenu {
-        padding: 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
     }
 
     /*---------- About ----------*/
