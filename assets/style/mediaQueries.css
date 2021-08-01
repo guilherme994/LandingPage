@@ -24,7 +24,7 @@
         color: white;
         transform: translateX(100%);
         transition: transform 300ms;
-        padding: 15rem 10rem;
+        padding: 10rem 10rem;
     }
     .icon-menu, 
     .icon-x{
@@ -42,7 +42,7 @@
         transform: translateX(0%);
     }
     .menu{
-        gap: 5rem    
+        gap: 3rem    
     }
 
     /*---------- About ----------*/
@@ -139,7 +139,13 @@
 
     .menuHam {
         width: 300px;
-        padding: 15rem 7rem;
+        padding: 5rem;
+    }
+    .linksMenu {
+        padding: 1rem;
+    }
+    .menu{
+        gap: 2rem    
     }
 
     /*---------- About ----------*/
@@ -293,10 +299,13 @@
 
     .menuHam {
         width: 100%;
-        padding: 1rem 6rem;
+        padding: 1rem 6rem; /*6*/
     }
     .menu{
         gap: 1rem    
+    }
+    .linksMenu {
+        padding: 1rem;
     }
 
     /*---------- About ----------*/

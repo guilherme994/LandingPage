@@ -1,7 +1,7 @@
 /*---------- Header ----------*/
 
 .linksMenu:hover::after,
-.linksMenu, .active::after {
+.active::after {
     width: 100%;
     color: white;
 }
@@ -13,7 +13,7 @@ nav a::after {
   
     position: absolute;
     left: 0;
-    bottom: -0.5rem;
+    bottom: 0;
   
     transition: width 0.2s;
 }
