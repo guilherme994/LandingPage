@@ -1,11 +1,14 @@
 @media screen and (max-width: 1230px) {
     /*---------- General ----------*/
+    .mainGrid{
+        max-width: 1200px;
+    }
+
+    /*---------- Header ----------*/
     .headerLayout{
         width: 800px;
         padding: 1rem;
     }
-
-    /*---------- Header ----------*/
 
     .menuHam {
         display: grid;
@@ -118,5 +121,155 @@
 }
 
 @media screen and (max-width: 1025px) {
-    
+    /*---------- General ----------*/
+
+    .grid{
+        grid-template-columns: auto;
+        gap: 2rem;
+    }
+    .mainGrid{
+        max-width: 1000px;
+    }
+
+    /*---------- Header ----------*/
+    .headerLayout{
+        width: 600px;
+        padding: 1rem;
+    }
+
+    .menuHam {
+        width: 300px;
+        padding: 15rem 7rem;
+    }
+
+    /*---------- About ----------*/
+
+    .mainImages{
+        height: 450px;
+    }
+    .frontOfTheHotel {
+        width: 600px;
+        height: 400px;
+    }
+
+    .aboutHotel{
+        max-width: 500px;
+    }
+
+    /*---------- Acommodation ----------*/
+
+    .accommodationGrid{
+        grid-template-columns: auto;
+        gap: 1.5rem;
+        padding: 1.5rem 2rem 1.5rem 1.5rem;
+    }
+    .rooms{
+        height: 250px;
+    }
+
+    /*---------- Inside ----------*/
+
+    .insideTheHotel{
+        width: 600px;
+        height: 400px;
+    }
+    .structure{
+        width: 600px;
+        height: 350px;
+        padding: 0;
+    }
+    .structure ul div li {
+        line-height: 1.5;
+    }
+    /*---------- Region ----------*/
+    .region{
+        padding: 2rem 1rem;
+    }
+    .regionImages {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+    }
+    .shopping{
+        width: 610px;
+        height: 500px;
+        grid-column: 2 / 4 ;
+    }
+    .drugstore{
+        width: 300px;
+        height: 500px;
+        grid-column: 2 / 3 ;
+    }
+    .parkNautico{
+        width: 300px;
+        height: 500px;
+        grid-column: 3/ 4 ;
+    }
+    .pizza{
+        width: 610px;
+        height: 500px;
+        grid-column: 2 / 5 ;
+    }
+    .superMarket{
+        width: 300px;
+        height: 500px;
+        grid-column: 2 / 3 ;
+    }
+    .park{
+        width: 300px;
+        height: 500px;
+        grid-column: 3/ 4 ;
+    }
+    /*---------- Contact & location ----------*/
+
+    .contactForm{
+        width: 600px;
+    }
+    iframe {
+        width: 600px;
+        height: 500px;
+    }
+
+    /*----------  swiper ------------*/
+
+    .swiper-container {
+        width: 100%;
+        height: 440px;
+        margin: 4rem;
+        margin-top: 0;
+    }
+    .swiper-slide { 
+        max-width: 700px; 
+    }
+
+    .swiper-wrapper{
+        height: 400px;
+        width: 100%;
+    }       
+
+    .slide-1 {
+        width: 640px;
+        height: 400px;
+    }
+    .slide-2 {
+        width: 640px;
+        height: 400px;
+    }
+    .slide-3 {
+        width: 640px;
+        height: 400px;
+    }
+    .slide-4 {
+        width: 640px;
+        height: 400px;
+    }
+    .slide-5 {
+        width: 640px;
+        height: 400px;
+    }
+    .slide-6 {
+        width: 640px;
+        height: 400px;
+    }
+
 }
