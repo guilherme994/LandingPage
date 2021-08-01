@@ -273,3 +273,159 @@
     }
 
 }
+
+@media screen and (max-width: 350px) {
+        /*---------- General ----------*/
+
+        .grid{
+            grid-template-columns: auto;
+            gap: 2rem;
+            padding: 2rem 0.625rem;
+        }
+        .mainGrid{
+            max-width: 500px;
+        }
+    
+        /*---------- Header ----------*/
+        .headerLayout{
+            width: 300px;
+            padding: 1rem;
+        }
+    
+        .menuHam {
+            width: 100%;
+            padding: 7rem 10rem;
+        }
+    
+        /*---------- About ----------*/
+    
+        .mainImages{
+            height: 300px;
+        }
+        .frontOfTheHotel {
+            width: 300px;
+            height: 200px;
+        }
+    
+        .aboutHotel{
+            max-width: 300px;
+        }
+    
+        /*---------- Acommodation ----------*/
+    
+        .accommodationGrid{
+            grid-template-columns: auto;
+            gap: 1.5rem;
+            padding: 1.5rem 2rem 1.5rem 1.5rem;
+        }
+        .rooms{
+            height: 250px;
+        }
+    
+        /*---------- Inside ----------*/
+    
+        .insideTheHotel{
+            width: 300px;
+            height: 300px;
+        }
+        .structure{
+            width: 300px;
+            height: 350px;
+            padding: 0;
+            overflow: hidden;
+        }
+        .structure ul div li {
+            line-height: 1.5;
+        }
+        /*---------- Region ----------*/
+        .region{
+            padding: 2rem 1rem;
+        }
+        .regionImages {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto auto auto;
+        }
+        .shopping{
+            width: 310px;
+            height: 200px;
+            grid-column: 2 / 4 ;
+        }
+        .drugstore{
+            width: 150px;
+            height: 200px;
+            grid-column: 2 / 3 ;
+        }
+        .parkNautico{
+            width: 150px;
+            height: 200px;
+            grid-column: 3/ 4 ;
+        }
+        .pizza{
+            width: 310px;
+            height: 200px;
+            grid-column: 2 / 5 ;
+        }
+        .superMarket{
+            width: 150px;
+            height: 200px;
+            grid-column: 2 / 3 ;
+        }
+        .park{
+            width: 150px;
+            height: 200px;
+            grid-column: 3/ 4 ;
+        }
+        /*---------- Contact & location ----------*/
+    
+        .contactForm{
+            width: 300px;
+        }
+        iframe {
+            width: 300px;
+            height: 300px;
+        }
+    
+        /*----------  swiper ------------*/
+    
+        .swiper-container {
+            width: 100%;
+            height: 340px;
+            margin: 4rem;
+            margin-top: 0;
+        }
+        .swiper-slide { 
+            max-width: 700px; 
+        }
+    
+        .swiper-wrapper{
+            height: 300px;
+            width: 100%;
+        }       
+    
+        .slide-1 {
+            width: 100%;
+            height: 300px;
+        }
+        .slide-2 {
+            width: 100%;
+            height: 300px;
+        }
+        .slide-3 {
+            width: 100%;
+            height: 300px;
+        }
+        .slide-4 {
+            width: 100%;
+            height: 300px;
+        }
+        .slide-5 {
+            width: 100%;
+            height: 300px;
+        }
+        .slide-6 {
+            width: 100%;
+            height: 300px;
+        }
+
+}

@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper-container', {
     // Optional parameters
     slidesPerView: 'auto',
     direction: 'horizontal',
-    centeredSlides: false,
+    centeredSlides: true,
     autoplay: true,
 
 
