@@ -288,6 +288,192 @@
         padding: 2rem 0rem;
     }
     .mainGrid{
+        max-width: 400px;
+    }
+
+    /*---------- Header ----------*/
+    .headerLayout{
+        width: 400px;
+        padding: 1rem;
+    }
+
+    .menuHam {
+        width: 100%;
+        padding: 2rem 10rem; /*6*/
+    }
+    .menu{
+        gap: 1rem;
+    }
+    .linksMenu {
+        padding: 1rem;
+    }
+
+    /*---------- About ----------*/
+
+    .mainImages{
+        height: 400px;
+    }
+    .frontOfTheHotel {
+        width: 400px;
+        height: 300px;
+    }
+
+    .aboutHotel{
+        max-width: 400px;
+    }
+
+    /*---------- Acommodation ----------*/
+
+    .accommodationGrid{
+        grid-template-columns: auto;
+        gap: 1.5rem;
+        padding: 1.5rem 2rem 1.5rem 1.5rem;
+    }
+    .rooms{
+        height: 250px;
+    }
+
+    /*---------- Inside ----------*/
+
+    .insideTheHotel{
+        width: 400px;
+        height: 400px;
+    }
+    .structure{
+        width: 400px;
+        height: 400px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .structure ul div li {
+        line-height: 1.5;
+    }
+    /*---------- Region ----------*/
+    .region{
+        padding: 2rem 1rem;
+    }
+    .regionImages {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 5px;
+    }
+    .shopping{
+        width: 405px;
+        height: 300px;
+        grid-column: 2 / 4 ;
+    }
+    .drugstore{
+        width: 200px;
+        height: 300px;
+        grid-column: 2 / 3 ;
+    }
+    .parkNautico{
+        width: 200px;
+        height: 300px;
+        grid-column: 3/ 4 ;
+    }
+    .pizza{
+        width: 405px;
+        height: 300px;
+        grid-column: 2 / 5 ;
+    }
+    .superMarket{
+        width: 200px;
+        height: 300px;
+        grid-column: 2 / 3 ;
+    }
+    .park{
+        width: 200px;
+        height: 300px;
+        grid-column: 3/ 4 ;
+    }
+    /*---------- Contact & location ----------*/
+
+    .contactForm{
+        width: 400px;
+    }
+    iframe {
+        width: 400px;
+        height: 400px;
+    }
+    .locationMap {
+        padding: 2rem 0; 
+    }
+
+    /*----------  swiper ------------*/
+
+    .swiper-container {
+        width: 100%;
+        height: 440px;
+        margin: 4rem;
+        margin-top: 0;
+    }
+    .swiper-slide { 
+        max-width: 700px; 
+    }
+
+    .swiper-wrapper{
+        height: 400px;
+        width: 100%;
+    }       
+
+    .slide-1 {
+        width: 100%;
+        height: 400px;
+    }
+    .slide-2 {
+        width: 100%;
+        height: 400px;
+    }
+    .slide-3 {
+        width: 100%;
+        height: 400px;
+    }
+    .slide-4 {
+        width: 100%;
+        height: 400px;
+    }
+    .slide-5 {
+        width: 100%;
+        height: 400px;
+    }
+    .slide-6 {
+        width: 100%;
+        height: 400px;
+    }
+    /*---------- Footer ----------*/
+
+    .location{
+        padding: 2rem 2rem;
+    }
+
+    .icon-footer{
+        padding: 0.7rem;
+        font-size: 1.1rem;
+        margin-right: 1rem;
+        transition: 400ms;
+    }
+    .medias{
+        padding: 4.25rem 3rem;
+
+    }
+    .arrow-up {
+        bottom: 1rem;
+        right: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    /*---------- General ----------*/
+
+    .grid{
+        grid-template-columns: auto;
+        gap: 2rem;
+        padding: 2rem 0rem;
+    }
+    .mainGrid{
         max-width: 300px;
     }
 
