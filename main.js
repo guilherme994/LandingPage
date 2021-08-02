@@ -90,6 +90,22 @@ function backToTop() {
   }
 }
 
+/* Scroll Reveal */
+
+const scrollReveal = ScrollReveal({
+  origin: 'bottom',
+  scale: 0.95 ,
+  distance: '30px',
+  opacity: 0.8 ,
+  duration: 700,
+  reset: true
+})
+
+scrollReveal.reveal(
+  `.frontOfTheHotel, .aboutHotel, .boxRoom, .structure, .insideTheHotel, .shopping, .drugstore, .parkNautico, .pizza, .superMarket, .park, .contactForm, .locationMap`,
+  { interval: 150 }
+)
+
 /* When Scroll */
 window.addEventListener('scroll', function () {
   activateMenuAtCurrentSection()
