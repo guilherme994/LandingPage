@@ -102,6 +102,9 @@
     .locationMap {
         padding: 5.1rem 0; 
     }
+    #contato div h1 {
+        padding: 0 2rem;
+    }
     /*---------- Region ----------*/
 
     .shopping{
